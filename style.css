@@ -1,0 +1,93 @@
+body{
+background: rgba(30, 222, 142, 0.244);
+color: aliceblue;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(24,22,22);
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    margin-top: 8%;
+    width: 25em;
+    height: 20em;
+    background: linear-gradient(211,211,75), white;
+    border: solid 5px rgba(0, 0, 0, 0.574);
+    border-radius: 1rem;
+    text-align: center;
+    color: black;
+}
+
+#value {
+    position: relative;
+    transform: translateX(-25%);
+}
+
+#value1 {
+    position: relative;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(33, 61, 84);
+    transform: translateY(-160%)translateX(50%);
+    height: 6%;
+}
+
+#value2 {
+    position: relative;
+    transform: translateX(-12%)translateY(-145%);
+}
+
+#from {
+    position: relative;
+    height: 8%;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(33, 61, 84);
+    transform: translateY(-290%)translateX(50%);
+}
+
+#to {
+    position: relative;
+    height: 8%;
+    border-radius: 0.5rem;
+    border: 3px solid rgba(33, 61, 84);
+    transform: translateY(-430%)translateX(50%);
+}
+
+#value3 {
+    position: relative;
+    transform: translateX(-9%)translateY(-290%);
+    }
+
+#calculate {
+    position: absolute;
+    height: 9%;
+    border-radius: 0.5rem;
+    background: #622569;
+    color: aliceblue;
+    font-size: 15px;
+    transform: translateY(-210%)translateX(-65%);
+}
+
+#value4 {
+    position: relative;
+    transform: translateX(-9%)translateY(-280%);
+}
+
+#displaybox1 {
+    position: absolute;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(33, 61, 84);
+    transform: translateY(-60%)translateX(-30%);
+}
+
